@@ -17,7 +17,7 @@ eliminacion gaussiana
 factorizacion lu
 	parcial
 	simple
-	dolittle 
+	dolittle
 	choleski
 	croud
 
