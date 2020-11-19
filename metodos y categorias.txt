@@ -14,7 +14,6 @@ eliminacion gaussiana
 	total
 	parcial
 
-
 factorizacion lu
 	parcial
 	simple
