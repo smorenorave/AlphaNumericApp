@@ -1,1 +1,20 @@
-<p>esto es lagrange papulince</p>
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<form method="POST" action="/lagrangeP/">
+    {% csrf_token %}
+<label for="fname">X:</label><br>
+<input type="text" id="x" name="x"><br>
+<label for="lname">Y:</label><br>
+<input type="text" id="y" name="y"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+{{polinomio}}
+
+</body>
+</html>

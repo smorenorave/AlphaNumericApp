@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Interpolation import views as Interpolation_views
+from AlphaNumeric import views as AlphaNumeric_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lagrange/<int:a>', Interpolation_views.selector, name='inter_views'),
+    path('lagrangeP/', Interpolation_views.lagrangeP, name='inter_lagrangeP'),
+    path('index/', AlphaNumeric_views.index, name='alpha_views'),
 ]

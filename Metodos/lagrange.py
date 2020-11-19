@@ -34,9 +34,9 @@ def lagrange(x, y):
         else:
             polinomio+= ' '+str(lf[i])+l[i]
         i+=1
-    print(polinomio)
+    return(polinomio)
 
-x = [-1, 0, 3, 4]
-y = [15.5, 3, 8, 1]
+#x = [-1, 0, 3, 4]
+#y = [15.5, 3, 8, 1]
 
-lagrange(x, y)
+#lagrange(x, y)
