@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'Iterative',
     'LUFactorization',
     'nonlinearEquations',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
